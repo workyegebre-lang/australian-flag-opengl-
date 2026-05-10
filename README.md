@@ -1,6 +1,6 @@
 # 🇦🇺 Waving Australian National Flag – OpenGL/GLUT Simulation and github logo
 
-# australian-flag-opengl-
+
 OpenGL/GLUT-based simulation of the Australian National Flag with real-time wave animation, wind physics, and GitHub logo rendering.
 ![My Image](flag.png)
 
@@ -162,9 +162,7 @@ All files ──include──► globals.h / globals.cpp  [shared state]
 
 ---
 
-## 📸 Screenshot
 
-<img width="1774" height="887" alt="1C902A42-A478-4CC8-B58A-FF3F10BF15E9" src="https://github.com/user-attachments/assets/a00ca6c6-b6c2-4844-8e56-f63a09a6bfa2" />
 
 
 ---
