@@ -14,10 +14,10 @@ A real-time 3D simulation of the Australian National Flag with a GitHub Octocat 
 |---|------|------------|------|---------------|
 | 1 | Workye Gebre   | (your ID) | `main.cpp`, `globals.h`, `globals.cpp` | Window init, camera, display loop, shared globals |
 | 2 | Tamrat Beyene  | (your ID) | `mesh.cpp`     | Flag mesh grid, wave displacement mathematics |
-| 3 | Daniel Abrarew | (your ID) | `colours.cpp`  | Australian flag colours, Union Jack canton |
+| 3 | Daniel Abraraw | (your ID) | `colours.cpp`  | Australian flag colours, Union Jack canton |
 | 4 | Nejat Ebrahim  | (your ID) | `stars.cpp`    | Commonwealth Star, Southern Cross geometry |
-| 5 | Mahlet Moll    | (your ID) | `octocat.cpp`  | GitHub Octocat logo, 2D overlay, logo transforms |
-| 6 | Rehmet Habtmu  | (your ID) | `scene.cpp`    | Flagpole, ground, HUD, keyboard controls, README |
+| 5 | Mahlet Molla   | (your ID) | `octocat.cpp`  | GitHub Octocat logo, 2D overlay, logo transforms |
+| 6 | Rahmet Habtamu | (your ID) | `scene.cpp`    | Flagpole, ground, HUD, keyboard controls, README |
 
 ---
 
