@@ -12,12 +12,12 @@ A real-time 3D simulation of the Australian National Flag with a GitHub Octocat 
 
 | # | Name | Student ID | File | Contributions |
 |---|------|------------|------|---------------|
-| 1 | Workye Gebre   | (your ID) | `main.cpp`, `globals.h`, `globals.cpp` | Window init, camera, display loop, shared globals |
-| 2 | Tamrat Beyene  | (your ID) | `mesh.cpp`     | Flag mesh grid, wave displacement mathematics |
-| 3 | Daniel Abraraw | (your ID) | `colours.cpp`  | Australian flag colours, Union Jack canton |
-| 4 | Nejat Ebrahim  | (your ID) | `stars.cpp`    | Commonwealth Star, Southern Cross geometry |
-| 5 | Mahlet Molla   | (your ID) | `octocat.cpp`  | GitHub Octocat logo, 2D overlay, logo transforms |
-| 6 | Rahmet Habtamu | (your ID) | `scene.cpp`    | Flagpole, ground, HUD, keyboard controls, README |
+| 1 | Workye Gebre   | (02973/15) | `main.cpp`, `globals.h`, `globals.cpp` | Window init, camera, display loop, shared globals |
+| 2 | Tamrat Beyene  | (01330/16) | `mesh.cpp`     | Flag mesh grid, wave displacement mathematics |
+| 3 | Daniel Abraraw | (01841/16) | `colours.cpp`  | Australian flag colours, Union Jack canton |
+| 4 | Nejat Ebrahim  | (02957/16) | `stars.cpp`    | Commonwealth Star, Southern Cross geometry |
+| 5 | Mahlet Molla   | (01471/16) | `octocat.cpp`  | GitHub Octocat logo, 2D overlay, logo transforms |
+| 6 | Rahmet Habtamu | (02963/16) | `scene.cpp`    | Flagpole, ground, HUD, keyboard controls, README |
 
 ---
 
