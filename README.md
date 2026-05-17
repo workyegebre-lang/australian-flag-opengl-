@@ -102,9 +102,10 @@ g++ main.cpp globals.cpp mesh.cpp colours.cpp stars.cpp octocat.cpp scene.cpp \
 ### 🐙 GitHub Logo Transforms
 | Key | Action |
 |-----|--------|
-| `Z` / `C` | Translate logo left / right |
+| `F` / `H` | Translate logo Horizontally left / right |
+| `T` / `G` | Translate logo Vertically up/down
 | `Q` / `E` | Rotate logo (Z axis spin) |
-| `T` / `G` | Scale logo up / down |
+| `Z` / `X` | Scale logo up / down |
 
 ### 💨 Wind Controls
 | Key | Action |
