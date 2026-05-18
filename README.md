@@ -74,6 +74,7 @@ sudo apt-get install freeglut3-dev
 ```bash
 g++ main.cpp globals.cpp mesh.cpp colours.cpp stars.cpp scene.cpp octocat.cpp -o flag.exe -lfreeglut -lopengl32 -lglu32
 
+
 ### macOS
 ```bash
 g++ main.cpp globals.cpp mesh.cpp colours.cpp stars.cpp octocat.cpp scene.cpp \
@@ -92,12 +93,12 @@ g++ main.cpp globals.cpp mesh.cpp colours.cpp stars.cpp octocat.cpp scene.cpp \
 
 
 
-```markdown
+
 ### Windows
 
 ```bash
 flag.exe
-
+## macbook, ## linux
 ```bash
 ./flag
 ```
