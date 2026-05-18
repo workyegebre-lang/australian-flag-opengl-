@@ -71,7 +71,7 @@ sudo apt-get install freeglut3-dev
 ```markdown
 ### Manual compile – Windows MinGW
 
-```
+```bash
 g++ main.cpp globals.cpp mesh.cpp colours.cpp stars.cpp scene.cpp octocat.cpp -o flag.exe -lfreeglut -lopengl32 -lglu32
 ```
 
