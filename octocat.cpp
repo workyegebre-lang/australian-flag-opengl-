@@ -53,16 +53,14 @@ static void gh_fillPoly(const std::vector<Vec2>& pts)
 
 static void gh_fillTail(int seg = 256)
 {
-    // Almost straight diagonal arm, only very slight curl at the tip.
-    // P0=root, P1 & P2 nearly on the straight line, P3=tip with tiny upward lift.
     auto spineX = [](float t) -> float {
         float u = 1.f - t;
-        // P0=-0.20  P1=-0.38  P2=-0.62  P3=-0.65
+       
         return u*u*u*(-0.20f) + 3*u*u*t*(-0.38f) + 3*u*t*t*(-0.62f) + t*t*t*(-0.65f);
     };
     auto spineY = [](float t) -> float {
         float u = 1.f - t;
-        // P0=-0.48  P1=-0.62  P2=-0.55  P3=-0.28  (dips down then curls back up)
+
         return u*u*u*(-0.48f) + 3*u*u*t*(-0.62f) + 3*u*t*t*(-0.55f) + t*t*t*(-0.28f);
     };
 
@@ -106,8 +104,7 @@ void drawGitHubLogo()
 
     glDisable(GL_DEPTH_TEST);
 
-    // Apply independent logo transforms (translate → rotate → scale)
-    // Use a slightly compressed Y scale to keep the body proportional
+
     glTranslatef(cx + logoTx, cy + logoTy, 0.0f);
     glRotatef(logoRot, 0.0f, 0.0f, 1.0f);
     glScalef(size * 0.5f * logoScale, size * 0.42f * logoScale, 1.0f);
